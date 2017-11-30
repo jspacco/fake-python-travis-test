@@ -12,6 +12,9 @@ class TestUM(unittest.TestCase):
     def test_strings_a_3(self):
         self.assertEqual(multiply('a', 3), 'aaa')
 
+    def test_numbers_0_1(self):
+        self.assertEqual(multiply(0, 1), 0)
+
 
 if __name__ == '__main__':
     unittest.main()
